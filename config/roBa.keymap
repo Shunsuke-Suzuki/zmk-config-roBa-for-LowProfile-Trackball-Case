@@ -100,11 +100,13 @@
 
         NUM {
             bindings = <
-&kp N1            &kp N2  &kp N3             &kp N4  &kp N5                                &kp N6     &kp N7     &kp N8     &kp N9    &kp N0
-&kp LEFT_CONTROL  &trans  &trans             &trans  &trans      &trans         &kp CARET  &kp CARET  &kp MINUS  &kp EQUAL  &kp BSLH  &kp GRAVE
-&kp LEFT_SHIFT    &trans  &trans             &trans  &kp PERIOD  &kp COMMA      &kp DOT    &kp SEMI   &kp APOS   &kp LBKT   &kp RBKT  &kp RIGHT_COMMAND
-&trans            &trans  &kp RIGHT_COMMAND  &trans  &trans      &trans         &trans     &trans                                     &kp RIGHT_SHIFT
+&kp N1            &kp N2  &kp N3             &kp N4                &kp N5                                           &kp N6     &kp N7     &kp N8     &kp N9    &kp N0
+&kp LEFT_CONTROL  &trans  &trans             &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_MUTE      &kp CARET  &kp CARET  &kp MINUS  &kp EQUAL  &kp BSLH  &kp GRAVE
+&kp LEFT_SHIFT    &trans  &kp C_STOP         &kp C_PLAY_PAUSE      &kp C_NEXT            &kp COMMA       &kp DOT    &kp SEMI   &kp APOS   &kp LBKT   &kp RBKT  &kp RIGHT_COMMAND
+&trans            &trans  &kp RIGHT_COMMAND  &trans                &trans                &trans          &trans     &trans                                     &kp RIGHT_SHIFT
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
         };
 
         ARROW {
@@ -115,7 +117,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans          &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(C_VOL_UP) LC(C_VOLUME_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
