@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W         &kp E             &kp R                    &kp T                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp LCTRL     &kp A         &kp S             &kp D                    &kp F        &kp LS(LG(S))             &kp G          &kp H        &kp J  &kp K      &kp L    &kp SQT
-&kp LSHFT     &kp Z         &kp X             &kp C                    &kp V        &kp B                     &kp MINUS      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp CAPSLOCK  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt_to_layer_0 6 ESCAPE  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q         &kp W         &kp E             &kp R                 &kp T                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp LCTRL     &kp A         &kp S             &kp D                 &kp F        &kp LS(LG(S))                &kp G          &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp LSHFT     &kp Z         &kp X             &kp C                 &kp V        &kp B                        &kp MINUS      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp CAPSLOCK  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt_to_layer_0 6 TAB  &lt 2 SPACE  &lt_to_layer_0 3 ESCAPE      &kp BACKSPACE  &lt 1 ENTER                             &kp RIGHT_COMMAND
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -110,8 +110,8 @@
         ARROW {
             bindings = <
 &kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans  &trans  &trans  &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL       &kp HOME                &kp LEFT_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp DOWN_ARROW  &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
 
