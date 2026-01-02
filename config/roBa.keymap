@@ -53,6 +53,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <9 8>;
+        };
     };
 
     macros {
