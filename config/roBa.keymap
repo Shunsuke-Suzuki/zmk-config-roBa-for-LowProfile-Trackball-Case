@@ -46,7 +46,7 @@
 
         eq {
             bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+            key-positions = <8 9>;
         };
 
         esc {
@@ -57,6 +57,11 @@
         minus {
             bindings = <&kp MINUS>;
             key-positions = <8 7>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <19 20>;
         };
     };
 
