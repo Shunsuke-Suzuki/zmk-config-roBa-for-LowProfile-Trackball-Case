@@ -63,6 +63,11 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <19 20>;
         };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <32 31>;
+        };
     };
 
     macros {
