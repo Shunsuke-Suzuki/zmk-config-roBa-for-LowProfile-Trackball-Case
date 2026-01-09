@@ -61,12 +61,22 @@
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <19 20>;
+            key-positions = <19 18>;
         };
 
         slash {
             bindings = <&kp SLASH>;
             key-positions = <32 31>;
+        };
+
+        left_blacket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <19 20>;
+        };
+
+        right_blacket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <20 21>;
         };
     };
 
