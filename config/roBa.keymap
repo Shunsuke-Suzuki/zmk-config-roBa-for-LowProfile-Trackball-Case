@@ -39,11 +39,6 @@
             key-positions = <12 11>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <8 9>;
