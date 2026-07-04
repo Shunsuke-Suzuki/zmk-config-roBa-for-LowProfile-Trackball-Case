@@ -8,6 +8,20 @@
     quick-tap-ms = <0>;
 };
 
+&trackball {
+    desktop_swipe {
+        layers = <2>;
+        bindings =
+            <&kp LC(RIGHT_ARROW)>,
+            <&kp LC(LEFT_ARROW)>,
+            <&none>,
+            <&none>;
+        tick = <80>;
+        wait-ms = <150>;
+        tap-ms = <20>;
+    };
+};
+
 / {
     combos {
         compatible = "zmk,combos";
