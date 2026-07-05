@@ -15,8 +15,8 @@
         bindings =
             <&kp LC(LEFT_ARROW)>,
             <&kp LC(RIGHT_ARROW)>,
-            <&none>,
-            <&none>;
+            <&kp LC(UP_ARROW)>,
+            <&kp LC(DOWN_ARROW)>;
         tick = <80>;
         wait-ms = <150>;
         tap-ms = <20>;
