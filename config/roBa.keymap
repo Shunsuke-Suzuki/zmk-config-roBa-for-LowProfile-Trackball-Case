@@ -21,6 +21,18 @@
         wait-ms = <150>;
         tap-ms = <20>;
     };
+
+    notification_center_swipe {
+        layers = <3>;
+        bindings =
+            <&kp LC(LA(LG(N)))>,
+            <&none>,
+            <&none>,
+            <&none>;
+        tick = <120>;
+        wait-ms = <200>;
+        tap-ms = <20>;
+    };
 };
 
 / {
