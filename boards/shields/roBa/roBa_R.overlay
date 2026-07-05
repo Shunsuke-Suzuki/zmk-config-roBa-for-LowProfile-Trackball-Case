@@ -23,7 +23,14 @@
         axis = <1>;
         layer = <5>;
         scale = <1>;
-        scale-div = <24>;
+        scale-div = <16>;
+        start = <24>;
+        move = <48>;
+        decay-fast = <995>;
+        decay-slow = <995>;
+        decay-tail = <995>;
+        friction = <10>;
+        stop = <5>;
         tick = <8>;
     };
 };
@@ -41,7 +48,7 @@
             &zip_y_scaler (-1) 1
             &zip_xy_to_scroll_mapper
             &scroll_inertia_v
-            &zip_scroll_scaler 1 24
+            &zip_scroll_scaler 1 16
         >;
     };
 };
