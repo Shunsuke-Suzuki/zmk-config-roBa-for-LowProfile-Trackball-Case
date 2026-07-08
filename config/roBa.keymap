@@ -118,7 +118,7 @@
 &kp LEFT_SHIFT      &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &lt 2 SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE    &kp RIGHT_COMMAND                             &lt 7 SLASH
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         FUNCTION {
